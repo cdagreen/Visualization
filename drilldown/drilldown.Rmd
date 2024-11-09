@@ -1,0 +1,310 @@
+---
+title: "Drilldown Example"
+output: flexdashboard::flex_dashboard
+runtime: shiny_prerendered
+---
+
+<style type="text/css">
+body{ /* Normal  */
+      font-size: 16px;
+  }
+td {  /* Table  */
+  font-size: 16px;
+}
+h1 { /* Header 1 */
+  font-size: 28px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 22px;
+  color: DarkBlue;
+}
+h3 { /* Header 3 */
+  font-size: 30px;
+}
+</style>
+
+```{r, context="setup"}
+library(tidyverse)
+library(highcharter)
+library(rlang)
+library(shiny)
+library(shinyWidgets)
+#library(shinyjs)
+#useShinyjs(rmd = TRUE)
+#library(devtools)
+
+# this file defines the function make_drilldown() and its dependency aggregate_hier()
+source(file = 'drilldown_functions.R')
+
+# function to get the id of the category selected when user clicks to drill down. the id is saved 
+# to the variable line_clicked, accessible as input$line_clicked. The id is a concatenation of numeric
+#variables representing the value of each hierarchy variable, sepatated by periods. For example, when "Midwest" is
+#selected, id might be "level1.1". If "Illinois" is then selected, the id might become "level1.1.4" 
+js_click_line_id <- htmlwidgets::JS("function(event) {Shiny.onInputChange('line_clicked', [event.point.drilldown]);}")
+
+# read Adidas sales data (data aggregated from Kaggle: https://www.kaggle.com/datasets/heemalichaudhari/adidas-sales-dataset)
+tbl_ <- readr::read_csv('data/Adidas_US_2021_aggregated.csv')
+
+######### set hierarchy variables (if desired)
+#vars_hier <- c("Retailer","Region","State","City","Type","Subtype", "Sex")
+
+# if vars_hier not provided, set to all non-numeric columns in data
+vars_hier <- tbl_ %>% 
+  select(-where(is.numeric)) %>% 
+  names()
+
+# keep list of original variables (for display in table, other utility variables will be added)
+cols_orig <- names(tbl_)
+
+# name of numerical variable to display
+YNAME <- "Total Sales" 
+
+# name of variable to display in table. RHS string is name in data, LHS is label to display
+YNAME_TBL <- c("Total Sales"="Total Sales")
+
+``` 
+
+Inputs {.sidebar data-width=300}
+------------------------------------
+
+```{r sidebar}
+# next variable to add
+selectInput(
+  'var', 
+  'Hierarchy Variable to Add', 
+  choices = vars_hier
+)
+
+shinyWidgets::actionBttn(
+  'addVar', 
+  'Add Variable', 
+  size = 'sm'
+)
+
+shinyWidgets::actionBttn(
+  'removeVar', 
+  'Remove Variable', 
+  size = 'sm'
+)
+
+shinyWidgets::actionBttn(
+  'reset', 
+  'Reset', 
+  size = 'sm'
+)
+
+shinyWidgets::actionBttn(
+  'makeplot', 
+  'Make Plot', 
+  size = 'sm'
+)
+
+
+verbatimTextOutput('hierList')
+```
+
+
+```{r, context="server"}
+# store the vector of hierarchy variables
+hier <- reactiveVal()
+
+chart <- reactiveVal()
+
+# add variable from selectInput to end of hier()
+observeEvent(input$addVar, {
+               hier(c(hier(), input$var))
+             })
+
+# remove last value added to hier()
+observeEvent(input$removeVar, {
+              if (length(hier())==1) { hier(NULL)}
+              else {hier(hier()[1:(length(hier())-1)])}
+             })
+
+# reset hierarchy
+observeEvent(input$reset, {
+               hier(NULL)
+             })
+
+observeEvent(input$makeplot, {
+  req(length(hier())>0)
+  chart(
+     make_drilldown(df=tbl_, hier=hier(), yname=YNAME, js_click_line_id=js_click_line_id)
+  )
+})
+
+output$hierList <- renderText({
+  req(length(hier()>0))
+  paste(
+    'Current Hierarchy: \n', 
+    paste(hier(), collapse = " > \n ")
+  )
+})
+
+
+# render plot. take dependency on input$backlvl1, so that when "Back to First Plot" is selected, plot reverts to original.
+output$plot <- renderHighchart({
+  input$backlvl1
+  chart()
+})
+
+# number of hierarchy variables 
+nlvl <- reactive({ length(hier())
+}) 
+
+# from input$line_clicked, construct vector defining currently-selected category. For example, if three levels down in hierarchy, is is a triple of integers -- the first contains the integer representing the value selected at the highest level of the hierarchy, eg. "Midwest" = 1, and so on.  
+hier_curr <- reactive({
+  req(input$line_clicked)
+  tmp <- unlist(strsplit(input$line_clicked,"[.]"))
+  tmp[-1] 
+}) 
+
+# number of levels of hierarchy descended to reach current selection.
+lvl <- reactive({
+  req(input$line_clicked)
+  if (is.null(input$line_clicked)) 0
+  else length(hier_curr())
+})
+
+# define reactive values object to store variable maketable, T/F whether to construct table
+values <- reactiveValues()
+
+values$maketable <- FALSE
+ 
+# when lvl() changes, determine whether it is equal to total number of hierarchy variables. 
+# If so, lowest level has been reached, so set maketable to TRUE. Otherwise FALSE
+observeEvent(lvl(), {
+  values$maketable = (lvl()==nlvl())
+})
+ 
+# when "Back to Last Plot" or "Back to Original Plot"  button is clicked, reset maketable to FALSE
+observeEvent(c(input$back,input$backlvl1,input$view), {
+  values$maketable = FALSE
+})
+
+# debounce maketable to allow time to create the table/plot. Does this actually work? 
+maketable <- reactive({
+  values$maketable  
+})
+
+maketable_d <- debounce(maketable,300)
+
+# save maketable as output variable to be used below
+output$maketable <- reactive({
+  if (length(input$line_clicked) >0)  maketable_d() & (input$line_clicked %in% names(data_split()))
+  else FALSE
+ })
+
+output$emptytable <- reactive({
+   maketable_d() & !(input$line_clicked %in% names(data_split()))
+ })
+
+# create output variable makeplot, complement of maketable. using "ouput.maketable=='FALSE'" doesn't work  
+output$makeplot <-  reactive({
+   !maketable_d()
+ })
+
+indiv_fltr <- reactive({
+   standardize_df(df=tbl_,hier=hier(),yname=YNAME) 
+})
+
+#split into list by id_tbl, variable created in standardize_df that defines the groups at most granular level
+data_split <- reactive({
+  split(indiv_fltr(),indiv_fltr()$id_tbl)
+}) 
+
+# key to id_tbl -- used to determine table name 
+key_tbl <- reactive({  indiv_fltr() %>%
+    distinct(id_tbl,.keep_all=TRUE) %>%
+    select(id_tbl,!!! syms(hier()))
+})
+ 
+# create data to be put in table, for group defined by input$line_clicked
+# now takes the top 15 loans in the group based on Total Sales, 
+# sorts in descending order of that variable 
+detail_tbl <-  reactive({
+  req(input$line_clicked)
+  req(input$line_clicked %in% names(data_split()))
+  maketable()
+  tbl_tmp <- data_split()[[input$line_clicked]] %>% 
+    #select(!!!syms(TBL_DESC), !!sym(YNAME_TBL)) %>%
+    top_n(15,abs(!!sym(YNAME_TBL))) %>%  #take top 15 loans 
+    arrange(desc(abs(!!sym(YNAME_TBL)))) %>%  # sort output
+    select(all_of(cols_orig)) %>% 
+    rename(all_of(YNAME_TBL))
+  tbl_tmp
+})
+
+# define table format, save table to output$table 
+output$table <- DT::renderDataTable({
+          maketable()
+           idx_sales <- match("Total Sales", names(detail_tbl()))
+           dt_ <- DT::datatable(detail_tbl(),
+                         class = 'compact stripe hover',
+                         rownames = FALSE,
+                         options = list(paging=FALSE,dom = 't',ordering=T),
+                         fillContainer = FALSE)
+           if (!is.na(idx_sales)){
+             dt_ <- dt_ %>% 
+               DT::formatCurrency(idx_sales, currency="$",digits=0)
+           }
+           dt_
+})
+
+#construct table name listing the categories selected. (commented text would add variable names) 
+output$tblname <- renderText({  
+  req(input$line_clicked)
+  hier_clicked <- filter(key_tbl(),id_tbl==input$line_clicked) %>% 
+                      select(-id_tbl)
+  paste(hier_clicked,collapse=" > ")
+  # lbl_vec <- paste(HIER,hier_clicked,sep=" : ") 
+  # paste(lbl_vec, collapse=", ")
+}) 
+
+# for testing purposes
+output$clicked <- renderText({input$line_clicked})
+
+# ensure that output variables maketable and makeplot are created
+outputOptions(output, "maketable", suspendWhenHidden = FALSE) 
+outputOptions(output, "makeplot", suspendWhenHidden = FALSE) 
+outputOptions(output, "plot", suspendWhenHidden = FALSE) 
+```
+
+<!-- user interface  -->
+
+
+Row {.tabset .tabset-fade data-height=425}
+-----------------------------------------------------------------------
+
+
+### **Total Sales**
+
+```{r}
+# panel containing plot, displayed if makeplot==TRUE 
+conditionalPanel(
+  condition = "output.makeplot",
+  highchartOutput("plot")
+)
+
+# panel containing table and "back" button, displayed if maketable==TRUE
+conditionalPanel(
+  condition = "output.maketable",
+  actionButton("back","Back to Last Plot"),
+  actionButton("backlvl1","Back to First Plot"),
+  textOutput("tblname"),
+  DT::dataTableOutput("table") 
+)
+
+conditionalPanel(
+  condition = "output.emptytable",
+  actionButton("back","Back to Last Plot"),
+  actionButton("backlvl1","Back to First Plot"),
+  "No changes of note."
+)
+
+#textOutput("clicked")
+```
+
+
+

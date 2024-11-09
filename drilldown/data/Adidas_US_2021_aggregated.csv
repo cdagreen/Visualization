@@ -1,0 +1,543 @@
+Retailer,Region,State,City,Sex,Type,Subtype,Total Sales
+Amazon,Midwest,Ohio,Columbus,Men's,Apparel,Apparel,2567061
+Amazon,Midwest,Ohio,Columbus,Men's,Footwear,Athletic,2770609
+Amazon,Midwest,Ohio,Columbus,Men's,Footwear,Street,4464402
+Amazon,Midwest,Ohio,Columbus,Women's,Apparel,Apparel,3268924
+Amazon,Midwest,Ohio,Columbus,Women's,Footwear,Athletic,1885400
+Amazon,Midwest,Ohio,Columbus,Women's,Footwear,Street,1879477
+Amazon,Northeast,Maine,Portland,Men's,Apparel,Apparel,995810
+Amazon,Northeast,Maine,Portland,Men's,Footwear,Athletic,1270514
+Amazon,Northeast,Maine,Portland,Men's,Footwear,Street,2833398
+Amazon,Northeast,Maine,Portland,Women's,Apparel,Apparel,1873499
+Amazon,Northeast,Maine,Portland,Women's,Footwear,Athletic,697119
+Amazon,Northeast,Maine,Portland,Women's,Footwear,Street,941055
+Amazon,Northeast,Massachusetts,Boston,Men's,Apparel,Apparel,505574
+Amazon,Northeast,Massachusetts,Boston,Men's,Footwear,Athletic,650116
+Amazon,Northeast,Massachusetts,Boston,Men's,Footwear,Street,1169936
+Amazon,Northeast,Massachusetts,Boston,Women's,Apparel,Apparel,870340
+Amazon,Northeast,Massachusetts,Boston,Women's,Footwear,Athletic,405484
+Amazon,Northeast,Massachusetts,Boston,Women's,Footwear,Street,592140
+Amazon,Northeast,New Hampshire,Manchester,Men's,Apparel,Apparel,1400449
+Amazon,Northeast,New Hampshire,Manchester,Men's,Footwear,Athletic,1518938
+Amazon,Northeast,New Hampshire,Manchester,Men's,Footwear,Street,2769442
+Amazon,Northeast,New Hampshire,Manchester,Women's,Apparel,Apparel,2119434
+Amazon,Northeast,New Hampshire,Manchester,Women's,Footwear,Athletic,1070231
+Amazon,Northeast,New Hampshire,Manchester,Women's,Footwear,Street,1198648
+Amazon,Northeast,Vermont,Burlington,Men's,Apparel,Apparel,1862696
+Amazon,Northeast,Vermont,Burlington,Men's,Footwear,Athletic,2036114
+Amazon,Northeast,Vermont,Burlington,Men's,Footwear,Street,3790013
+Amazon,Northeast,Vermont,Burlington,Women's,Apparel,Apparel,2623446
+Amazon,Northeast,Vermont,Burlington,Women's,Footwear,Athletic,1447437
+Amazon,Northeast,Vermont,Burlington,Women's,Footwear,Street,1620757
+Amazon,South,Alabama,Birmingham,Men's,Footwear,Athletic,105490
+Amazon,South,Alabama,Birmingham,Men's,Footwear,Street,188226
+Amazon,South,Alabama,Birmingham,Women's,Footwear,Athletic,36702
+Amazon,South,Alabama,Birmingham,Women's,Footwear,Street,78673
+Amazon,Southeast,Kentucky,Louisville,Men's,Apparel,Apparel,852405
+Amazon,Southeast,Kentucky,Louisville,Men's,Footwear,Athletic,1100583
+Amazon,Southeast,Kentucky,Louisville,Men's,Footwear,Street,2286517
+Amazon,Southeast,Kentucky,Louisville,Women's,Apparel,Apparel,1470352
+Amazon,Southeast,Kentucky,Louisville,Women's,Footwear,Athletic,581179
+Amazon,Southeast,Kentucky,Louisville,Women's,Footwear,Street,801621
+Amazon,Southeast,North Carolina,Charlotte,Men's,Apparel,Apparel,702867
+Amazon,Southeast,North Carolina,Charlotte,Men's,Footwear,Athletic,377169
+Amazon,Southeast,North Carolina,Charlotte,Men's,Footwear,Street,573600
+Amazon,Southeast,North Carolina,Charlotte,Women's,Apparel,Apparel,803561
+Amazon,Southeast,North Carolina,Charlotte,Women's,Footwear,Athletic,546847
+Amazon,Southeast,North Carolina,Charlotte,Women's,Footwear,Street,729632
+Amazon,West,Alaska,Anchorage,Men's,Apparel,Apparel,1587908
+Amazon,West,Alaska,Anchorage,Men's,Footwear,Athletic,2182426
+Amazon,West,Alaska,Anchorage,Men's,Footwear,Street,4086118
+Amazon,West,Alaska,Anchorage,Women's,Apparel,Apparel,2681083
+Amazon,West,Alaska,Anchorage,Women's,Footwear,Athletic,1264856
+Amazon,West,Alaska,Anchorage,Women's,Footwear,Street,1562634
+Foot Locker,Midwest,Illinois,Chicago,Men's,Apparel,Apparel,1102791
+Foot Locker,Midwest,Illinois,Chicago,Men's,Footwear,Athletic,1337282
+Foot Locker,Midwest,Illinois,Chicago,Men's,Footwear,Street,2939171
+Foot Locker,Midwest,Illinois,Chicago,Women's,Apparel,Apparel,1960895
+Foot Locker,Midwest,Illinois,Chicago,Women's,Footwear,Athletic,735881
+Foot Locker,Midwest,Illinois,Chicago,Women's,Footwear,Street,999016
+Foot Locker,Midwest,Iowa,Des Moines,Men's,Apparel,Apparel,621042
+Foot Locker,Midwest,Iowa,Des Moines,Men's,Footwear,Athletic,700345
+Foot Locker,Midwest,Iowa,Des Moines,Men's,Footwear,Street,1608789
+Foot Locker,Midwest,Iowa,Des Moines,Women's,Apparel,Apparel,1042403
+Foot Locker,Midwest,Iowa,Des Moines,Women's,Footwear,Athletic,376730
+Foot Locker,Midwest,Iowa,Des Moines,Women's,Footwear,Street,447626
+Foot Locker,Midwest,Kansas,Wichita,Men's,Apparel,Apparel,497056
+Foot Locker,Midwest,Kansas,Wichita,Men's,Footwear,Athletic,474131
+Foot Locker,Midwest,Kansas,Wichita,Men's,Footwear,Street,956296
+Foot Locker,Midwest,Kansas,Wichita,Women's,Apparel,Apparel,781724
+Foot Locker,Midwest,Kansas,Wichita,Women's,Footwear,Athletic,386016
+Foot Locker,Midwest,Kansas,Wichita,Women's,Footwear,Street,425727
+Foot Locker,Midwest,Michigan,Detroit,Men's,Apparel,Apparel,471687
+Foot Locker,Midwest,Michigan,Detroit,Men's,Footwear,Athletic,231199
+Foot Locker,Midwest,Michigan,Detroit,Men's,Footwear,Street,399490
+Foot Locker,Midwest,Michigan,Detroit,Women's,Apparel,Apparel,563184
+Foot Locker,Midwest,Michigan,Detroit,Women's,Footwear,Athletic,352222
+Foot Locker,Midwest,Michigan,Detroit,Women's,Footwear,Street,472548
+Foot Locker,Midwest,Missouri,St. Louis,Men's,Apparel,Apparel,1151877
+Foot Locker,Midwest,Missouri,St. Louis,Men's,Footwear,Athletic,1254449
+Foot Locker,Midwest,Missouri,St. Louis,Men's,Footwear,Street,2377799
+Foot Locker,Midwest,Missouri,St. Louis,Women's,Apparel,Apparel,1684063
+Foot Locker,Midwest,Missouri,St. Louis,Women's,Footwear,Athletic,718022
+Foot Locker,Midwest,Missouri,St. Louis,Women's,Footwear,Street,795922
+Foot Locker,Midwest,Nebraska,Omaha,Men's,Apparel,Apparel,530197
+Foot Locker,Midwest,Nebraska,Omaha,Men's,Footwear,Athletic,734799
+Foot Locker,Midwest,Nebraska,Omaha,Men's,Footwear,Street,1992217
+Foot Locker,Midwest,Nebraska,Omaha,Women's,Apparel,Apparel,1202661
+Foot Locker,Midwest,Nebraska,Omaha,Women's,Footwear,Athletic,294873
+Foot Locker,Midwest,Nebraska,Omaha,Women's,Footwear,Street,510082
+Foot Locker,Midwest,North Dakota,Fargo,Men's,Apparel,Apparel,277148
+Foot Locker,Midwest,North Dakota,Fargo,Men's,Footwear,Athletic,379368
+Foot Locker,Midwest,North Dakota,Fargo,Men's,Footwear,Street,806241
+Foot Locker,Midwest,North Dakota,Fargo,Women's,Apparel,Apparel,584783
+Foot Locker,Midwest,North Dakota,Fargo,Women's,Footwear,Athletic,199995
+Foot Locker,Midwest,North Dakota,Fargo,Women's,Footwear,Street,300927
+Foot Locker,Midwest,South Dakota,Sioux Falls,Men's,Apparel,Apparel,699052
+Foot Locker,Midwest,South Dakota,Sioux Falls,Men's,Footwear,Athletic,854453
+Foot Locker,Midwest,South Dakota,Sioux Falls,Men's,Footwear,Street,1919046
+Foot Locker,Midwest,South Dakota,Sioux Falls,Women's,Apparel,Apparel,1167701
+Foot Locker,Midwest,South Dakota,Sioux Falls,Women's,Footwear,Athletic,464200
+Foot Locker,Midwest,South Dakota,Sioux Falls,Women's,Footwear,Street,584703
+Foot Locker,Northeast,Connecticut,Hartford,Men's,Apparel,Apparel,433488
+Foot Locker,Northeast,Connecticut,Hartford,Men's,Footwear,Athletic,518479
+Foot Locker,Northeast,Connecticut,Hartford,Men's,Footwear,Street,1011165
+Foot Locker,Northeast,Connecticut,Hartford,Women's,Apparel,Apparel,835328
+Foot Locker,Northeast,Connecticut,Hartford,Women's,Footwear,Athletic,355402
+Foot Locker,Northeast,Connecticut,Hartford,Women's,Footwear,Street,476936
+Foot Locker,Northeast,Delaware,Wilmington,Men's,Apparel,Apparel,1146226
+Foot Locker,Northeast,Delaware,Wilmington,Men's,Footwear,Athletic,1314167
+Foot Locker,Northeast,Delaware,Wilmington,Men's,Footwear,Street,2461767
+Foot Locker,Northeast,Delaware,Wilmington,Women's,Apparel,Apparel,1632697
+Foot Locker,Northeast,Delaware,Wilmington,Women's,Footwear,Athletic,850826
+Foot Locker,Northeast,Delaware,Wilmington,Women's,Footwear,Street,981885
+Foot Locker,Northeast,Maryland,Baltimore,Men's,Apparel,Apparel,423059
+Foot Locker,Northeast,Maryland,Baltimore,Men's,Footwear,Athletic,443120
+Foot Locker,Northeast,Maryland,Baltimore,Men's,Footwear,Street,1211525
+Foot Locker,Northeast,Maryland,Baltimore,Women's,Apparel,Apparel,768786
+Foot Locker,Northeast,Maryland,Baltimore,Women's,Footwear,Athletic,329535
+Foot Locker,Northeast,Maryland,Baltimore,Women's,Footwear,Street,459018
+Foot Locker,Northeast,New Hampshire,Manchester,Men's,Apparel,Apparel,786691
+Foot Locker,Northeast,New Hampshire,Manchester,Men's,Footwear,Athletic,1018350
+Foot Locker,Northeast,New Hampshire,Manchester,Men's,Footwear,Street,1814606
+Foot Locker,Northeast,New Hampshire,Manchester,Women's,Apparel,Apparel,1138919
+Foot Locker,Northeast,New Hampshire,Manchester,Women's,Footwear,Athletic,658174
+Foot Locker,Northeast,New Hampshire,Manchester,Women's,Footwear,Street,917785
+Foot Locker,Northeast,Pennsylvania,Philadelphia,Men's,Apparel,Apparel,1055499
+Foot Locker,Northeast,Pennsylvania,Philadelphia,Men's,Footwear,Athletic,1424060
+Foot Locker,Northeast,Pennsylvania,Philadelphia,Men's,Footwear,Street,3235541
+Foot Locker,Northeast,Pennsylvania,Philadelphia,Women's,Apparel,Apparel,1836338
+Foot Locker,Northeast,Pennsylvania,Philadelphia,Women's,Footwear,Athletic,784975
+Foot Locker,Northeast,Pennsylvania,Philadelphia,Women's,Footwear,Street,1072632
+Foot Locker,Northeast,Rhode Island,Providence,Men's,Apparel,Apparel,597863
+Foot Locker,Northeast,Rhode Island,Providence,Men's,Footwear,Athletic,843935
+Foot Locker,Northeast,Rhode Island,Providence,Men's,Footwear,Street,1882378
+Foot Locker,Northeast,Rhode Island,Providence,Women's,Apparel,Apparel,1114961
+Foot Locker,Northeast,Rhode Island,Providence,Women's,Footwear,Athletic,414879
+Foot Locker,Northeast,Rhode Island,Providence,Women's,Footwear,Street,572771
+Foot Locker,Northeast,West Virginia,Charleston,Men's,Apparel,Apparel,490767
+Foot Locker,Northeast,West Virginia,Charleston,Men's,Footwear,Athletic,461217
+Foot Locker,Northeast,West Virginia,Charleston,Men's,Footwear,Street,963622
+Foot Locker,Northeast,West Virginia,Charleston,Women's,Apparel,Apparel,844341
+Foot Locker,Northeast,West Virginia,Charleston,Women's,Footwear,Athletic,354424
+Foot Locker,Northeast,West Virginia,Charleston,Women's,Footwear,Street,163476
+Foot Locker,South,Louisiana,New Orleans,Men's,Apparel,Apparel,602400
+Foot Locker,South,Louisiana,New Orleans,Men's,Footwear,Athletic,432776
+Foot Locker,South,Louisiana,New Orleans,Men's,Footwear,Street,305179
+Foot Locker,South,Louisiana,New Orleans,Women's,Apparel,Apparel,589171
+Foot Locker,South,Louisiana,New Orleans,Women's,Footwear,Athletic,646363
+Foot Locker,South,Louisiana,New Orleans,Women's,Footwear,Street,777274
+Foot Locker,South,Mississippi,Jackson,Men's,Apparel,Apparel,895992
+Foot Locker,South,Mississippi,Jackson,Men's,Footwear,Athletic,601279
+Foot Locker,South,Mississippi,Jackson,Men's,Footwear,Street,1568921
+Foot Locker,South,Mississippi,Jackson,Women's,Apparel,Apparel,1082449
+Foot Locker,South,Mississippi,Jackson,Women's,Footwear,Athletic,556107
+Foot Locker,South,Mississippi,Jackson,Women's,Footwear,Street,507073
+Foot Locker,South,Tennessee,Knoxville,Men's,Footwear,Athletic,82152
+Foot Locker,South,Tennessee,Knoxville,Men's,Footwear,Street,156338
+Foot Locker,South,Tennessee,Knoxville,Women's,Footwear,Athletic,23519
+Foot Locker,South,Tennessee,Knoxville,Women's,Footwear,Street,59216
+Foot Locker,South,Texas,Dallas,Men's,Footwear,Athletic,106350
+Foot Locker,South,Texas,Dallas,Men's,Footwear,Street,200486
+Foot Locker,South,Texas,Dallas,Women's,Footwear,Athletic,31366
+Foot Locker,South,Texas,Dallas,Women's,Footwear,Street,82614
+Foot Locker,Southeast,Georgia,Atlanta,Men's,Apparel,Apparel,652732
+Foot Locker,Southeast,Georgia,Atlanta,Men's,Footwear,Athletic,650473
+Foot Locker,Southeast,Georgia,Atlanta,Men's,Footwear,Street,882570
+Foot Locker,Southeast,Georgia,Atlanta,Women's,Apparel,Apparel,713433
+Foot Locker,Southeast,Georgia,Atlanta,Women's,Footwear,Athletic,521875
+Foot Locker,Southeast,Georgia,Atlanta,Women's,Footwear,Street,778885
+Foot Locker,Southeast,Kentucky,Louisville,Men's,Apparel,Apparel,429919
+Foot Locker,Southeast,Kentucky,Louisville,Men's,Footwear,Athletic,475826
+Foot Locker,Southeast,Kentucky,Louisville,Men's,Footwear,Street,812353
+Foot Locker,Southeast,Kentucky,Louisville,Women's,Apparel,Apparel,577384
+Foot Locker,Southeast,Kentucky,Louisville,Women's,Footwear,Athletic,324609
+Foot Locker,Southeast,Kentucky,Louisville,Women's,Footwear,Street,360100
+Foot Locker,Southeast,South Carolina,Charleston,Men's,Apparel,Apparel,4069745
+Foot Locker,Southeast,South Carolina,Charleston,Men's,Footwear,Athletic,4071614
+Foot Locker,Southeast,South Carolina,Charleston,Men's,Footwear,Street,5783765
+Foot Locker,Southeast,South Carolina,Charleston,Women's,Apparel,Apparel,4854229
+Foot Locker,Southeast,South Carolina,Charleston,Women's,Footwear,Athletic,3090484
+Foot Locker,Southeast,South Carolina,Charleston,Women's,Footwear,Street,2952443
+Foot Locker,Southeast,Virginia,Richmond,Men's,Apparel,Apparel,2172141
+Foot Locker,Southeast,Virginia,Richmond,Men's,Footwear,Athletic,3790027
+Foot Locker,Southeast,Virginia,Richmond,Men's,Footwear,Street,3867397
+Foot Locker,Southeast,Virginia,Richmond,Women's,Apparel,Apparel,3260270
+Foot Locker,Southeast,Virginia,Richmond,Women's,Footwear,Athletic,2226604
+Foot Locker,Southeast,Virginia,Richmond,Women's,Footwear,Street,2785904
+Foot Locker,West,Alaska,Anchorage,Men's,Apparel,Apparel,89616
+Foot Locker,West,Alaska,Anchorage,Men's,Footwear,Athletic,346303
+Foot Locker,West,Alaska,Anchorage,Men's,Footwear,Street,305816
+Foot Locker,West,Alaska,Anchorage,Women's,Apparel,Apparel,196416
+Foot Locker,West,Alaska,Anchorage,Women's,Footwear,Athletic,103658
+Foot Locker,West,Alaska,Anchorage,Women's,Footwear,Street,346269
+Foot Locker,West,Arizona,Phoenix,Men's,Apparel,Apparel,1544452
+Foot Locker,West,Arizona,Phoenix,Men's,Footwear,Athletic,2679935
+Foot Locker,West,Arizona,Phoenix,Men's,Footwear,Street,2832426
+Foot Locker,West,Arizona,Phoenix,Women's,Apparel,Apparel,2541926
+Foot Locker,West,Arizona,Phoenix,Women's,Footwear,Athletic,1597862
+Foot Locker,West,Arizona,Phoenix,Women's,Footwear,Street,1958615
+Foot Locker,West,California,Los Angeles,Men's,Footwear,Athletic,129728
+Foot Locker,West,California,Los Angeles,Men's,Footwear,Street,224498
+Foot Locker,West,California,Los Angeles,Women's,Footwear,Athletic,52365
+Foot Locker,West,California,Los Angeles,Women's,Footwear,Street,101162
+Foot Locker,West,Hawaii,Honolulu,Men's,Apparel,Apparel,1130204
+Foot Locker,West,Hawaii,Honolulu,Men's,Footwear,Athletic,2215741
+Foot Locker,West,Hawaii,Honolulu,Men's,Footwear,Street,2666470
+Foot Locker,West,Hawaii,Honolulu,Women's,Apparel,Apparel,2175986
+Foot Locker,West,Hawaii,Honolulu,Women's,Footwear,Athletic,1694894
+Foot Locker,West,Hawaii,Honolulu,Women's,Footwear,Street,2109203
+Foot Locker,West,Idaho,Boise,Men's,Apparel,Apparel,485955
+Foot Locker,West,Idaho,Boise,Men's,Footwear,Athletic,1476179
+Foot Locker,West,Idaho,Boise,Men's,Footwear,Street,1322142
+Foot Locker,West,Idaho,Boise,Women's,Apparel,Apparel,1383930
+Foot Locker,West,Idaho,Boise,Women's,Footwear,Athletic,962585
+Foot Locker,West,Idaho,Boise,Women's,Footwear,Street,1387975
+Foot Locker,West,Wyoming,Cheyenne,Men's,Apparel,Apparel,352220
+Foot Locker,West,Wyoming,Cheyenne,Men's,Footwear,Athletic,287560
+Foot Locker,West,Wyoming,Cheyenne,Men's,Footwear,Street,245690
+Foot Locker,West,Wyoming,Cheyenne,Women's,Apparel,Apparel,534152
+Foot Locker,West,Wyoming,Cheyenne,Women's,Footwear,Athletic,312992
+Foot Locker,West,Wyoming,Cheyenne,Women's,Footwear,Street,541741
+Kohl's,Midwest,Kansas,Wichita,Men's,Apparel,Apparel,907997
+Kohl's,Midwest,Kansas,Wichita,Men's,Footwear,Athletic,995147
+Kohl's,Midwest,Kansas,Wichita,Men's,Footwear,Street,1927212
+Kohl's,Midwest,Kansas,Wichita,Women's,Apparel,Apparel,1337094
+Kohl's,Midwest,Kansas,Wichita,Women's,Footwear,Athletic,594029
+Kohl's,Midwest,Kansas,Wichita,Women's,Footwear,Street,690435
+Kohl's,Midwest,Montana,Billings,Men's,Apparel,Apparel,2013006
+Kohl's,Midwest,Montana,Billings,Men's,Footwear,Athletic,2835826
+Kohl's,Midwest,Montana,Billings,Men's,Footwear,Street,2873515
+Kohl's,Midwest,Montana,Billings,Women's,Apparel,Apparel,3108558
+Kohl's,Midwest,Montana,Billings,Women's,Footwear,Athletic,1851328
+Kohl's,Midwest,Montana,Billings,Women's,Footwear,Street,2336765
+Kohl's,Northeast,Delaware,Wilmington,Men's,Apparel,Apparel,480548
+Kohl's,Northeast,Delaware,Wilmington,Men's,Footwear,Athletic,569992
+Kohl's,Northeast,Delaware,Wilmington,Men's,Footwear,Street,1060430
+Kohl's,Northeast,Delaware,Wilmington,Women's,Apparel,Apparel,887708
+Kohl's,Northeast,Delaware,Wilmington,Women's,Footwear,Athletic,391754
+Kohl's,Northeast,Delaware,Wilmington,Women's,Footwear,Street,520412
+Kohl's,Northeast,New Jersey,Newark,Men's,Apparel,Apparel,813062
+Kohl's,Northeast,New Jersey,Newark,Men's,Footwear,Athletic,1001531
+Kohl's,Northeast,New Jersey,Newark,Men's,Footwear,Street,2034947
+Kohl's,Northeast,New Jersey,Newark,Women's,Apparel,Apparel,1286450
+Kohl's,Northeast,New Jersey,Newark,Women's,Footwear,Athletic,578890
+Kohl's,Northeast,New Jersey,Newark,Women's,Footwear,Street,712805
+Kohl's,Northeast,New York,Albany,Men's,Apparel,Apparel,640155
+Kohl's,Northeast,New York,Albany,Men's,Footwear,Athletic,451449
+Kohl's,Northeast,New York,Albany,Men's,Footwear,Street,677230
+Kohl's,Northeast,New York,Albany,Women's,Apparel,Apparel,730986
+Kohl's,Northeast,New York,Albany,Women's,Footwear,Athletic,486574
+Kohl's,Northeast,New York,Albany,Women's,Footwear,Street,706245
+Kohl's,South,Oklahoma,Oklahoma City,Men's,Apparel,Apparel,547405
+Kohl's,South,Oklahoma,Oklahoma City,Men's,Footwear,Athletic,472596
+Kohl's,South,Oklahoma,Oklahoma City,Men's,Footwear,Street,885098
+Kohl's,South,Oklahoma,Oklahoma City,Women's,Apparel,Apparel,824362
+Kohl's,South,Oklahoma,Oklahoma City,Women's,Footwear,Athletic,419620
+Kohl's,South,Oklahoma,Oklahoma City,Women's,Footwear,Street,402974
+Kohl's,West,Arizona,Phoenix,Men's,Apparel,Apparel,345856
+Kohl's,West,Arizona,Phoenix,Men's,Footwear,Athletic,424766
+Kohl's,West,Arizona,Phoenix,Men's,Footwear,Street,368015
+Kohl's,West,Arizona,Phoenix,Women's,Apparel,Apparel,508737
+Kohl's,West,Arizona,Phoenix,Women's,Footwear,Athletic,353341
+Kohl's,West,Arizona,Phoenix,Women's,Footwear,Street,626290
+Kohl's,West,California,Los Angeles,Men's,Apparel,Apparel,3794776
+Kohl's,West,California,Los Angeles,Men's,Footwear,Athletic,4523348
+Kohl's,West,California,Los Angeles,Men's,Footwear,Street,4444768
+Kohl's,West,California,Los Angeles,Women's,Apparel,Apparel,5124392
+Kohl's,West,California,Los Angeles,Women's,Footwear,Athletic,3350432
+Kohl's,West,California,Los Angeles,Women's,Footwear,Street,3889444
+Kohl's,West,California,San Francisco,Men's,Footwear,Athletic,330876
+Kohl's,West,California,San Francisco,Men's,Footwear,Street,257320
+Kohl's,West,California,San Francisco,Women's,Footwear,Athletic,260066
+Kohl's,West,California,San Francisco,Women's,Footwear,Street,330561
+Kohl's,West,New Mexico,Albuquerque,Men's,Apparel,Apparel,2098480
+Kohl's,West,New Mexico,Albuquerque,Men's,Footwear,Athletic,3446593
+Kohl's,West,New Mexico,Albuquerque,Men's,Footwear,Street,3592123
+Kohl's,West,New Mexico,Albuquerque,Women's,Apparel,Apparel,3267518
+Kohl's,West,New Mexico,Albuquerque,Women's,Footwear,Athletic,2141920
+Kohl's,West,New Mexico,Albuquerque,Women's,Footwear,Street,2519331
+Kohl's,West,Wyoming,Cheyenne,Men's,Apparel,Apparel,2523680
+Kohl's,West,Wyoming,Cheyenne,Men's,Footwear,Athletic,2613938
+Kohl's,West,Wyoming,Cheyenne,Men's,Footwear,Street,4130357
+Kohl's,West,Wyoming,Cheyenne,Women's,Apparel,Apparel,3239434
+Kohl's,West,Wyoming,Cheyenne,Women's,Footwear,Athletic,1915353
+Kohl's,West,Wyoming,Cheyenne,Women's,Footwear,Street,1880400
+Sports Direct,Midwest,Illinois,Chicago,Men's,Footwear,Athletic,222988
+Sports Direct,Midwest,Illinois,Chicago,Men's,Footwear,Street,148780
+Sports Direct,Midwest,Illinois,Chicago,Women's,Footwear,Athletic,188918
+Sports Direct,Midwest,Illinois,Chicago,Women's,Footwear,Street,161766
+Sports Direct,Midwest,Michigan,Detroit,Men's,Apparel,Apparel,2447420
+Sports Direct,Midwest,Michigan,Detroit,Men's,Footwear,Athletic,2669552
+Sports Direct,Midwest,Michigan,Detroit,Men's,Footwear,Street,4127472
+Sports Direct,Midwest,Michigan,Detroit,Women's,Apparel,Apparel,3223376
+Sports Direct,Midwest,Michigan,Detroit,Women's,Footwear,Athletic,1813881
+Sports Direct,Midwest,Michigan,Detroit,Women's,Footwear,Street,1853402
+Sports Direct,Midwest,Montana,Billings,Men's,Footwear,Athletic,215278
+Sports Direct,Midwest,Montana,Billings,Men's,Footwear,Street,143780
+Sports Direct,Midwest,Montana,Billings,Women's,Footwear,Athletic,179320
+Sports Direct,Midwest,Montana,Billings,Women's,Footwear,Street,153510
+Sports Direct,Midwest,Nebraska,Omaha,Men's,Footwear,Athletic,208184
+Sports Direct,Midwest,Nebraska,Omaha,Men's,Footwear,Street,138857
+Sports Direct,Midwest,Nebraska,Omaha,Women's,Footwear,Athletic,170804
+Sports Direct,Midwest,Nebraska,Omaha,Women's,Footwear,Street,146364
+Sports Direct,Midwest,North Dakota,Fargo,Men's,Apparel,Apparel,647646
+Sports Direct,Midwest,North Dakota,Fargo,Men's,Footwear,Athletic,768394
+Sports Direct,Midwest,North Dakota,Fargo,Men's,Footwear,Street,1751559
+Sports Direct,Midwest,North Dakota,Fargo,Women's,Apparel,Apparel,1093418
+Sports Direct,Midwest,North Dakota,Fargo,Women's,Footwear,Athletic,415839
+Sports Direct,Midwest,North Dakota,Fargo,Women's,Footwear,Street,510262
+Sports Direct,Midwest,South Dakota,Sioux Falls,Men's,Apparel,Apparel,296312
+Sports Direct,Midwest,South Dakota,Sioux Falls,Men's,Footwear,Athletic,430060
+Sports Direct,Midwest,South Dakota,Sioux Falls,Men's,Footwear,Street,893024
+Sports Direct,Midwest,South Dakota,Sioux Falls,Women's,Apparel,Apparel,618741
+Sports Direct,Midwest,South Dakota,Sioux Falls,Women's,Footwear,Athletic,221316
+Sports Direct,Midwest,South Dakota,Sioux Falls,Women's,Footwear,Street,346968
+Sports Direct,Northeast,Connecticut,Hartford,Men's,Apparel,Apparel,1044788
+Sports Direct,Northeast,Connecticut,Hartford,Men's,Footwear,Athletic,1241938
+Sports Direct,Northeast,Connecticut,Hartford,Men's,Footwear,Street,2411574
+Sports Direct,Northeast,Connecticut,Hartford,Women's,Apparel,Apparel,1558394
+Sports Direct,Northeast,Connecticut,Hartford,Women's,Footwear,Athletic,770518
+Sports Direct,Northeast,Connecticut,Hartford,Women's,Footwear,Street,915438
+Sports Direct,Northeast,Maryland,Baltimore,Men's,Apparel,Apparel,205572
+Sports Direct,Northeast,Maryland,Baltimore,Men's,Footwear,Athletic,460733
+Sports Direct,Northeast,Maryland,Baltimore,Men's,Footwear,Street,687378
+Sports Direct,Northeast,Maryland,Baltimore,Women's,Apparel,Apparel,480001
+Sports Direct,Northeast,Maryland,Baltimore,Women's,Footwear,Athletic,164148
+Sports Direct,Northeast,Maryland,Baltimore,Women's,Footwear,Street,267153
+Sports Direct,Northeast,Massachusetts,Boston,Men's,Apparel,Apparel,813229
+Sports Direct,Northeast,Massachusetts,Boston,Men's,Footwear,Athletic,1039800
+Sports Direct,Northeast,Massachusetts,Boston,Men's,Footwear,Street,2192646
+Sports Direct,Northeast,Massachusetts,Boston,Women's,Apparel,Apparel,1359913
+Sports Direct,Northeast,Massachusetts,Boston,Women's,Footwear,Athletic,742444
+Sports Direct,Northeast,Massachusetts,Boston,Women's,Footwear,Street,735188
+Sports Direct,Northeast,New Jersey,Newark,Men's,Apparel,Apparel,410750
+Sports Direct,Northeast,New Jersey,Newark,Men's,Footwear,Athletic,526542
+Sports Direct,Northeast,New Jersey,Newark,Men's,Footwear,Street,1015128
+Sports Direct,Northeast,New Jersey,Newark,Women's,Apparel,Apparel,756041
+Sports Direct,Northeast,New Jersey,Newark,Women's,Footwear,Athletic,323472
+Sports Direct,Northeast,New Jersey,Newark,Women's,Footwear,Street,474628
+Sports Direct,Northeast,Rhode Island,Providence,Men's,Apparel,Apparel,330818
+Sports Direct,Northeast,Rhode Island,Providence,Men's,Footwear,Athletic,443891
+Sports Direct,Northeast,Rhode Island,Providence,Men's,Footwear,Street,932173
+Sports Direct,Northeast,Rhode Island,Providence,Women's,Apparel,Apparel,650831
+Sports Direct,Northeast,Rhode Island,Providence,Women's,Footwear,Athletic,260179
+Sports Direct,Northeast,Rhode Island,Providence,Women's,Footwear,Street,402127
+Sports Direct,South,Alabama,Birmingham,Men's,Apparel,Apparel,2211662
+Sports Direct,South,Alabama,Birmingham,Men's,Footwear,Athletic,3145744
+Sports Direct,South,Alabama,Birmingham,Men's,Footwear,Street,2771455
+Sports Direct,South,Alabama,Birmingham,Women's,Apparel,Apparel,3776190
+Sports Direct,South,Alabama,Birmingham,Women's,Footwear,Athletic,2237856
+Sports Direct,South,Alabama,Birmingham,Women's,Footwear,Street,3081426
+Sports Direct,South,Mississippi,Jackson,Men's,Apparel,Apparel,813237
+Sports Direct,South,Mississippi,Jackson,Men's,Footwear,Athletic,667364
+Sports Direct,South,Mississippi,Jackson,Men's,Footwear,Street,1118061
+Sports Direct,South,Mississippi,Jackson,Women's,Apparel,Apparel,1156836
+Sports Direct,South,Mississippi,Jackson,Women's,Footwear,Athletic,644016
+Sports Direct,South,Mississippi,Jackson,Women's,Footwear,Street,587957
+Sports Direct,South,Tennessee,Knoxville,Men's,Apparel,Apparel,2304072
+Sports Direct,South,Tennessee,Knoxville,Men's,Footwear,Athletic,3291917
+Sports Direct,South,Tennessee,Knoxville,Men's,Footwear,Street,2906286
+Sports Direct,South,Tennessee,Knoxville,Women's,Apparel,Apparel,3839810
+Sports Direct,South,Tennessee,Knoxville,Women's,Footwear,Athletic,2281952
+Sports Direct,South,Tennessee,Knoxville,Women's,Footwear,Street,3122178
+Sports Direct,South,Texas,Dallas,Men's,Apparel,Apparel,2692169
+Sports Direct,South,Texas,Dallas,Men's,Footwear,Athletic,3772089
+Sports Direct,South,Texas,Dallas,Men's,Footwear,Street,3381704
+Sports Direct,South,Texas,Dallas,Women's,Apparel,Apparel,4366581
+Sports Direct,South,Texas,Dallas,Women's,Footwear,Athletic,2687557
+Sports Direct,South,Texas,Dallas,Women's,Footwear,Street,3581948
+Sports Direct,Southeast,Florida,Orlando,Men's,Apparel,Apparel,234922
+Sports Direct,Southeast,Florida,Orlando,Men's,Footwear,Athletic,251256
+Sports Direct,Southeast,Florida,Orlando,Men's,Footwear,Street,288345
+Sports Direct,Southeast,Florida,Orlando,Women's,Apparel,Apparel,445910
+Sports Direct,Southeast,Florida,Orlando,Women's,Footwear,Athletic,349280
+Sports Direct,Southeast,Florida,Orlando,Women's,Footwear,Street,290038
+Sports Direct,Southeast,Georgia,Atlanta,Men's,Apparel,Apparel,1783922
+Sports Direct,Southeast,Georgia,Atlanta,Men's,Footwear,Athletic,3020277
+Sports Direct,Southeast,Georgia,Atlanta,Men's,Footwear,Street,3130278
+Sports Direct,Southeast,Georgia,Atlanta,Women's,Apparel,Apparel,2866436
+Sports Direct,Southeast,Georgia,Atlanta,Women's,Footwear,Athletic,1818957
+Sports Direct,Southeast,Georgia,Atlanta,Women's,Footwear,Street,2177628
+Sports Direct,Southeast,North Carolina,Charlotte,Men's,Apparel,Apparel,3287599
+Sports Direct,Southeast,North Carolina,Charlotte,Men's,Footwear,Athletic,3301257
+Sports Direct,Southeast,North Carolina,Charlotte,Men's,Footwear,Street,4864657
+Sports Direct,Southeast,North Carolina,Charlotte,Women's,Apparel,Apparel,4003525
+Sports Direct,Southeast,North Carolina,Charlotte,Women's,Footwear,Athletic,2455478
+Sports Direct,Southeast,North Carolina,Charlotte,Women's,Footwear,Street,2310339
+Sports Direct,Southeast,South Carolina,Charleston,Men's,Apparel,Apparel,845152
+Sports Direct,Southeast,South Carolina,Charleston,Men's,Footwear,Athletic,485046
+Sports Direct,Southeast,South Carolina,Charleston,Men's,Footwear,Street,681565
+Sports Direct,Southeast,South Carolina,Charleston,Women's,Apparel,Apparel,932168
+Sports Direct,Southeast,South Carolina,Charleston,Women's,Footwear,Athletic,653963
+Sports Direct,Southeast,South Carolina,Charleston,Women's,Footwear,Street,865463
+Sports Direct,Southeast,Virginia,Richmond,Men's,Apparel,Apparel,610785
+Sports Direct,Southeast,Virginia,Richmond,Men's,Footwear,Athletic,368464
+Sports Direct,Southeast,Virginia,Richmond,Men's,Footwear,Street,568217
+Sports Direct,Southeast,Virginia,Richmond,Women's,Apparel,Apparel,715279
+Sports Direct,Southeast,Virginia,Richmond,Women's,Footwear,Athletic,530916
+Sports Direct,Southeast,Virginia,Richmond,Women's,Footwear,Street,679036
+Sports Direct,West,Hawaii,Honolulu,Men's,Apparel,Apparel,520674
+Sports Direct,West,Hawaii,Honolulu,Men's,Footwear,Athletic,436343
+Sports Direct,West,Hawaii,Honolulu,Men's,Footwear,Street,389302
+Sports Direct,West,Hawaii,Honolulu,Women's,Apparel,Apparel,754964
+Sports Direct,West,Hawaii,Honolulu,Women's,Footwear,Athletic,551704
+Sports Direct,West,Hawaii,Honolulu,Women's,Footwear,Street,845964
+Sports Direct,West,Idaho,Boise,Men's,Apparel,Apparel,879790
+Sports Direct,West,Idaho,Boise,Men's,Footwear,Athletic,851545
+Sports Direct,West,Idaho,Boise,Men's,Footwear,Street,879259
+Sports Direct,West,Idaho,Boise,Women's,Apparel,Apparel,1459382
+Sports Direct,West,Idaho,Boise,Women's,Footwear,Athletic,712456
+Sports Direct,West,Idaho,Boise,Women's,Footwear,Street,1048611
+Sports Direct,West,New Mexico,Albuquerque,Men's,Apparel,Apparel,429864
+Sports Direct,West,New Mexico,Albuquerque,Men's,Footwear,Athletic,356537
+Sports Direct,West,New Mexico,Albuquerque,Men's,Footwear,Street,300030
+Sports Direct,West,New Mexico,Albuquerque,Women's,Apparel,Apparel,601002
+Sports Direct,West,New Mexico,Albuquerque,Women's,Footwear,Athletic,440872
+Sports Direct,West,New Mexico,Albuquerque,Women's,Footwear,Street,670746
+Walmart,South,Arkansas,Little Rock,Men's,Apparel,Apparel,1322570
+Walmart,South,Arkansas,Little Rock,Men's,Footwear,Athletic,1316610
+Walmart,South,Arkansas,Little Rock,Men's,Footwear,Street,2307468
+Walmart,South,Arkansas,Little Rock,Women's,Apparel,Apparel,1716051
+Walmart,South,Arkansas,Little Rock,Women's,Footwear,Athletic,874763
+Walmart,South,Arkansas,Little Rock,Women's,Footwear,Street,946984
+Walmart,South,Mississippi,Jackson,Men's,Apparel,Apparel,806189
+Walmart,South,Mississippi,Jackson,Men's,Footwear,Athletic,1072512
+Walmart,South,Mississippi,Jackson,Men's,Footwear,Street,1145923
+Walmart,South,Mississippi,Jackson,Women's,Apparel,Apparel,1004406
+Walmart,South,Mississippi,Jackson,Women's,Footwear,Athletic,623782
+Walmart,South,Mississippi,Jackson,Women's,Footwear,Street,739605
+Walmart,Southeast,Florida,Orlando,Men's,Apparel,Apparel,2618870
+Walmart,Southeast,Florida,Orlando,Men's,Footwear,Athletic,4427705
+Walmart,Southeast,Florida,Orlando,Men's,Footwear,Street,4512748
+Walmart,Southeast,Florida,Orlando,Women's,Apparel,Apparel,3631798
+Walmart,Southeast,Florida,Orlando,Women's,Footwear,Athletic,2573542
+Walmart,Southeast,Florida,Orlando,Women's,Footwear,Street,3240876
+Walmart,West,Hawaii,Honolulu,Men's,Apparel,Apparel,1141643
+Walmart,West,Hawaii,Honolulu,Men's,Footwear,Athletic,1690871
+Walmart,West,Hawaii,Honolulu,Men's,Footwear,Street,1469096
+Walmart,West,Hawaii,Honolulu,Women's,Apparel,Apparel,1175996
+Walmart,West,Hawaii,Honolulu,Women's,Footwear,Athletic,638160
+Walmart,West,Hawaii,Honolulu,Women's,Footwear,Street,675242
+West Gear,Midwest,Indiana,Indianapolis,Men's,Apparel,Apparel,1176101
+West Gear,Midwest,Indiana,Indianapolis,Men's,Footwear,Athletic,1306839
+West Gear,Midwest,Indiana,Indianapolis,Men's,Footwear,Street,2709332
+West Gear,Midwest,Indiana,Indianapolis,Women's,Apparel,Apparel,1926345
+West Gear,Midwest,Indiana,Indianapolis,Women's,Footwear,Athletic,761383
+West Gear,Midwest,Indiana,Indianapolis,Women's,Footwear,Street,956198
+West Gear,Midwest,Iowa,Des Moines,Men's,Apparel,Apparel,307886
+West Gear,Midwest,Iowa,Des Moines,Men's,Footwear,Athletic,388492
+West Gear,Midwest,Iowa,Des Moines,Men's,Footwear,Street,800118
+West Gear,Midwest,Iowa,Des Moines,Women's,Apparel,Apparel,605061
+West Gear,Midwest,Iowa,Des Moines,Women's,Footwear,Athletic,212924
+West Gear,Midwest,Iowa,Des Moines,Women's,Footwear,Street,312595
+West Gear,Midwest,Missouri,St. Louis,Men's,Apparel,Apparel,295680
+West Gear,Midwest,Missouri,St. Louis,Men's,Footwear,Athletic,217983
+West Gear,Midwest,Missouri,St. Louis,Men's,Footwear,Street,359958
+West Gear,Midwest,Missouri,St. Louis,Women's,Apparel,Apparel,352984
+West Gear,Midwest,Missouri,St. Louis,Women's,Footwear,Athletic,192076
+West Gear,Midwest,Missouri,St. Louis,Women's,Footwear,Street,282452
+West Gear,Midwest,Ohio,Columbus,Men's,Apparel,Apparel,403406
+West Gear,Midwest,Ohio,Columbus,Women's,Apparel,Apparel,511544
+West Gear,Midwest,Ohio,Columbus,Women's,Footwear,Athletic,350511
+West Gear,Midwest,Ohio,Columbus,Women's,Footwear,Street,383249
+West Gear,Midwest,Wisconsin,Milwaukee,Men's,Apparel,Apparel,969692
+West Gear,Midwest,Wisconsin,Milwaukee,Men's,Footwear,Athletic,1142899
+West Gear,Midwest,Wisconsin,Milwaukee,Men's,Footwear,Street,2487006
+West Gear,Midwest,Wisconsin,Milwaukee,Women's,Apparel,Apparel,1696874
+West Gear,Midwest,Wisconsin,Milwaukee,Women's,Footwear,Athletic,627271
+West Gear,Midwest,Wisconsin,Milwaukee,Women's,Footwear,Street,803727
+West Gear,Northeast,Maine,Portland,Men's,Footwear,Athletic,173219
+West Gear,Northeast,Maine,Portland,Men's,Footwear,Street,134484
+West Gear,Northeast,Maine,Portland,Women's,Footwear,Athletic,103787
+West Gear,Northeast,Maine,Portland,Women's,Footwear,Street,173093
+West Gear,Northeast,Maryland,Baltimore,Men's,Apparel,Apparel,179596
+West Gear,Northeast,Maryland,Baltimore,Men's,Footwear,Athletic,294867
+West Gear,Northeast,Maryland,Baltimore,Men's,Footwear,Street,809381
+West Gear,Northeast,Maryland,Baltimore,Women's,Apparel,Apparel,356199
+West Gear,Northeast,Maryland,Baltimore,Women's,Footwear,Athletic,79556
+West Gear,Northeast,Maryland,Baltimore,Women's,Footwear,Street,138432
+West Gear,Northeast,New York,Albany,Men's,Apparel,Apparel,3233398
+West Gear,Northeast,New York,Albany,Men's,Footwear,Athletic,3378147
+West Gear,Northeast,New York,Albany,Men's,Footwear,Street,5096757
+West Gear,Northeast,New York,Albany,Women's,Apparel,Apparel,4048123
+West Gear,Northeast,New York,Albany,Women's,Footwear,Athletic,2486437
+West Gear,Northeast,New York,Albany,Women's,Footwear,Street,2492303
+West Gear,Northeast,Vermont,Burlington,Men's,Footwear,Athletic,204061
+West Gear,Northeast,Vermont,Burlington,Men's,Footwear,Street,330624
+West Gear,Northeast,Vermont,Burlington,Women's,Apparel,Apparel,235611
+West Gear,Northeast,Vermont,Burlington,Women's,Footwear,Street,202164
+West Gear,Northeast,West Virginia,Charleston,Men's,Apparel,Apparel,1059208
+West Gear,Northeast,West Virginia,Charleston,Men's,Footwear,Athletic,1075156
+West Gear,Northeast,West Virginia,Charleston,Men's,Footwear,Street,2050550
+West Gear,Northeast,West Virginia,Charleston,Women's,Apparel,Apparel,1517051
+West Gear,Northeast,West Virginia,Charleston,Women's,Footwear,Athletic,697044
+West Gear,Northeast,West Virginia,Charleston,Women's,Footwear,Street,1012304
+West Gear,South,Arkansas,Little Rock,Men's,Apparel,Apparel,669410
+West Gear,South,Arkansas,Little Rock,Men's,Footwear,Athletic,544240
+West Gear,South,Arkansas,Little Rock,Men's,Footwear,Street,975589
+West Gear,South,Arkansas,Little Rock,Women's,Apparel,Apparel,972007
+West Gear,South,Arkansas,Little Rock,Women's,Footwear,Athletic,515989
+West Gear,South,Arkansas,Little Rock,Women's,Footwear,Street,477666
+West Gear,South,Louisiana,New Orleans,Men's,Apparel,Apparel,2478001
+West Gear,South,Louisiana,New Orleans,Men's,Footwear,Athletic,4174555
+West Gear,South,Louisiana,New Orleans,Men's,Footwear,Street,4241728
+West Gear,South,Louisiana,New Orleans,Women's,Apparel,Apparel,3855112
+West Gear,South,Louisiana,New Orleans,Women's,Footwear,Athletic,2550803
+West Gear,South,Louisiana,New Orleans,Women's,Footwear,Street,3097419
+West Gear,South,Oklahoma,Oklahoma City,Men's,Apparel,Apparel,1029518
+West Gear,South,Oklahoma,Oklahoma City,Men's,Footwear,Athletic,1090274
+West Gear,South,Oklahoma,Oklahoma City,Men's,Footwear,Street,2055139
+West Gear,South,Oklahoma,Oklahoma City,Women's,Apparel,Apparel,1452433
+West Gear,South,Oklahoma,Oklahoma City,Women's,Footwear,Athletic,675203
+West Gear,South,Oklahoma,Oklahoma City,Women's,Footwear,Street,766112
+West Gear,Southeast,Florida,Orlando,Men's,Apparel,Apparel,814461
+West Gear,Southeast,Florida,Orlando,Men's,Footwear,Athletic,567183
+West Gear,Southeast,Florida,Orlando,Men's,Footwear,Street,826779
+West Gear,Southeast,Florida,Orlando,Women's,Apparel,Apparel,928101
+West Gear,Southeast,Florida,Orlando,Women's,Footwear,Athletic,716337
+West Gear,Southeast,Florida,Orlando,Women's,Footwear,Street,964700
+West Gear,West,California,San Francisco,Men's,Apparel,Apparel,3747057
+West Gear,West,California,San Francisco,Men's,Footwear,Athletic,4651982
+West Gear,West,California,San Francisco,Men's,Footwear,Street,4028372
+West Gear,West,California,San Francisco,Women's,Apparel,Apparel,4841169
+West Gear,West,California,San Francisco,Women's,Footwear,Athletic,3482541
+West Gear,West,California,San Francisco,Women's,Footwear,Street,3899886
+West Gear,West,Idaho,Boise,Men's,Apparel,Apparel,979976
+West Gear,West,Idaho,Boise,Men's,Footwear,Athletic,1274039
+West Gear,West,Idaho,Boise,Men's,Footwear,Street,1043593
+West Gear,West,Idaho,Boise,Women's,Apparel,Apparel,1191793
+West Gear,West,Idaho,Boise,Women's,Footwear,Athletic,864085
+West Gear,West,Idaho,Boise,Women's,Footwear,Street,1073583
+West Gear,West,Oregon,Portland,Men's,Apparel,Apparel,2674457
+West Gear,West,Oregon,Portland,Men's,Footwear,Athletic,4174578
+West Gear,West,Oregon,Portland,Men's,Footwear,Street,4195935
+West Gear,West,Oregon,Portland,Women's,Apparel,Apparel,3982463
+West Gear,West,Oregon,Portland,Women's,Footwear,Athletic,2752205
+West Gear,West,Oregon,Portland,Women's,Footwear,Street,3570036
+West Gear,West,Utah,Salt Lake City,Men's,Apparel,Apparel,1444612
+West Gear,West,Utah,Salt Lake City,Men's,Footwear,Athletic,1524489
+West Gear,West,Utah,Salt Lake City,Men's,Footwear,Street,2534743
+West Gear,West,Utah,Salt Lake City,Women's,Apparel,Apparel,2094601
+West Gear,West,Utah,Salt Lake City,Women's,Footwear,Athletic,907760
+West Gear,West,Utah,Salt Lake City,Women's,Footwear,Street,1190215
